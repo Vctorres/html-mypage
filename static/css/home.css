@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Lobster&display=swap');
+
+body{
+    margin: 0;
+    padding: 2rem;
+    background-color:#556B2f ;
+}
+.corpo{
+    padding: 3rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+}
+.header{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    background-color: black;
+    font-family: Lobster, serif ;
+}
+#titulo{
+    padding: 0.5rem;
+}
+#found{
+    height: 20vw;
+    width: 100%;
+    z-index: -1;
+}
+
+.img{
+    justify-content: space-around;
+    margin: 0;
+    padding: 2rem;
+    flex: 1;
+}
+.mobra{
+    flex: 1;
+    float: left;
+    max-width: 200px;
+    height: 200px;
+}
+.ecabo{
+    flex: 1;
+    float: right;
+    max-width: 200px;
+    height: 200px;
+}
+img{ 
+    
+    border: #fff;
+    border-radius: 5px;
+    width: 150px;
+    
+}
+.tt{
+    text-align: center;
+    width: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+.tt2{
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.description{
+    flex: none;
+    
+    
+}
+.pfnav{
+    padding: 0.4rem;
+    background-color: #fff;
+    width: 100px;
+    border: black 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.ctnav{
+    margin-top: 20px;
+    padding: 0.4rem;
+    background-color: #fff;
+    width: 100px;
+    border: black 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+.pcnav{
+    margin-top: 20px;
+    padding: 0.4rem;
+    background-color: #fff;
+    width: 100px;
+    border: black 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+@media (max-width: 1250px) {
+    .corpo{
+        flex-direction: column;
+        height: 100%;
+    }
+}

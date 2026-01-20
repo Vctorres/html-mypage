@@ -41,92 +41,115 @@ body {
 }
 
 .corpo {
-    max-width: 600px
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    max-width: 100rem;
     background-color: black;
     font-family: "Lobster", serif;
     color: #fff;
     font-weight: bold;
-    text-align: center;
 }
 .pics{
-    height: 300px;
-    background: black;
-    display: flex;
-    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: flex-start;
 }
-.mobra {
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+.mobra{
+    margin: 0;
+    padding: 5rem;
+    display: grid;
+    align-items: center;
+    justify-items: start;
+    
 }
 .fmobra{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 1px;
+    padding: 1rem;
+    border: 1px solid white;
+    max-width: 20rem;
+    align-items: flex-start;
 }
 .tt {
-    flex: none;
-    padding: 0.2rem;
-    text-align: center;
-    max-width: 100px;
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
     color: #fff;
     font-weight: bold;
     font-family: "Lobeste", serif;
 }
 .ecabo {
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 0;
+    padding: 5rem;
+    display: grid;
+    align-items: center; 
+    justify-items: center;
 }
 .fecabo{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    max-width: 15rem;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid white;
+
 }
 
 .cabospassados{
-    align-items: center;
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 0;
+    padding: 5rem;
+    display: grid;
+    align-items:center; 
+    justify-items: end;
+
 }
 .fcabospassados{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid white;
+    max-width: 18rem;
 }
 
 .separandofios{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 0px;
+    padding: 5rem;
+    display: grid;
+    align-items: center;
+    justify-content: start;
 }
 .fseparandofios{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid white;
+    max-width: 15rem;
 }
 
 .fprontos{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    mmargin: 0px;
+    padding: 5rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 .ffiosprontos{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid white;
+    max-width: 17rem;
 }
-
 .prjclimpado{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 1px;
+    padding: 5rem;
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
 }
 .fprjclimpado{
-    border-radius: 5px;
-    max-width: 200px;
-    height: 200px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid white;
+    max-width: 13rem;
 }
 
 #found {
@@ -177,8 +200,6 @@ body {
         color: black;
     }
 }
-
-
 
 
 

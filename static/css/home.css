@@ -137,6 +137,7 @@ body {
 }    
 
 #direitos{
+    padding: 1rem;
     display: flex;
     justify-content: end;
 }
@@ -176,6 +177,7 @@ body {
         color: black;
     }
 }
+
 
 
 

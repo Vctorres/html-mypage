@@ -196,9 +196,10 @@ body {
     .tt{
         display: flex;
         position: relative;
-        color: black;
+        color: red;
     }
 }
+
 
 
 
